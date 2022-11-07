@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokedex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heads-position-fixed">
+    <div class="main-head">
+        <img class=" main-head-img-first-three" src="images/head-main-fist pokemin.png" alt="word pokemon">
+        <img  class=" main-head-img-first-three" src="images/head-main shop.png" alt="shop sticker">
+        <img  class=" main-head-img-first-three" src="images/head-main play.png" alt="play button">
+        <img  class="main-head-img-last-three" src="images/head-main forth image in three image.jpg" alt="three different images">
+        <img  class="main-head-img-last-three" src="images/head-main brillant star.jpg" alt="star">
+        <img  class="main-head-img-last-three" src="images/head-main pokemon unite.jpg" alt="pokemon unite">
+    </div>
+    
+    <div class="head">
+        <a href="index.html"><div class="navbars home"><img class="head-icons" src="images/home-outline.svg" alt="home icon"><p>Home</p></div></a>
+        <a href="pokedex.html"><div class="navbars pokedex"><img class="head-icons" src="images/pokedex.svg" alt="pokedex"><p>Pokedex</p></div></a>
+        <a href="video.html"><div class="navbars video-games-and-apps"><img class="head-icons" src="images/video games and app.svg" alt="video and app"><p>Video Games And Apps</p></div></a>
+        <a href="tradingcard.html"><div class="navbars trading-card-game"><img class="head-icons" src="images/card-head.png" alt="card"><p>Trading Crad Games</p></div></a>
+        <a href="tv.html"><div class="navbars pokemon-tv"><img class="head-icons" src="images/head-tv.png" alt="tv"><p>Pokemin TV</p></div></a>
+    </div>
+    </div>
+    <div class="phone-navbar">
+        <div class="phone-navbar-left dropdown">
+            <button class="phone-navbar-left-button btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+              <li><a href="index.html"><div class="navbars home"><img class="head-icons" src="images/home-outline.svg" alt="home icon"><p>Home</p></div></a></li>
+              <li><a href="pokedex.html"><div class="navbars pokedex"><img class="head-icons" src="images/pokedex.svg" alt="pokedex"><p>Pokedex</p></div></a></li>
+              <li><a href="video.html"><div class="navbars video-games-and-apps"><img class="head-icons" src="images/video games and app.svg" alt="video and app"><p>Video Games And Apps</p></div></a></li>
+              <li><a href="tradingcard.html"><div class="navbars trading-card-game"><img class="head-icons" src="images/card-head.png" alt="card"><p>Trading Crad Games</p></div></a></li>
+              <li><a href="tv.html"><div class="navbars pokemon-tv"><img class="head-icons" src="images/head-tv.png" alt="tv"><p>Pokemin TV</p></div></a></li>
+            </ul>
+          </div>
+          <div class="phone-navbar-right">
+            <img class="slide-icon-size" src="images/login head.png" alt="">
+            <p>login</p>
+          </div>
+        </div>
+    <div class="home-main-border-bg">
+        <div class="side-icon">
+            <div class="side-icon-upper">
+                 <img class="slide-icon-size" src="images/login head.png" alt="">
+                 <p>login</p>
+            </div>
+            <div class="side-icon-lower">
+                 <img class="slide-icon-size" src="images/search-outline.svg" alt="">
+            </div>
+        </div>
+    <div  class="pokedex-heading"><h1>Pokedex</h1></div>
+    <div class="pokedex-after-head">
+        <div class="pokedex-after-head-left">
+            <h2>Name or Number</h2>
+            <input class="input" type="text" name="name/no">
+            <p>Use the advance search to explore pokemon by type, weakness, ability and more!</p>
+        </div>
+        <div >
+           <a href=""> <img class="pokedex-after-head-centre" src="images/search-outline.svg" alt=""></a>
+        </div>
+        <div class="pokedex-after-head-right">
+            <h4>Search for a pokemon by name or using its National pokedox no</h4>
+        </div>
+    </div>
+    <div class="pokedex-advance-search">
+        <h4>show advance search</h4><img class="pokedex-down-icon" src="images/chevron-down-outline.svg" alt="">
+    </div>
+    <div class="pokedex-surprise-and-lowes-button">
+        <div class="surprise-button">
+            <button class="pekedex-surprise-button"><img class="pokedex-reload-icon" src="images/reload-circle-outline.svg" alt="reload circle"> Surprise Me!</button>
+        </div>
+        <div class="lowest-button-main">
+            <img class="lower-button-icon" src="images/invert-mode-outline (1).svg" alt="">
+            <select class="lowest-button-select" name="name" >
+                <option class="lowest-button" value="sort result">sorts result by..</option>
+                <option class="lowest-button" value="lowest no">Lowest Number(first)</option>
+                <option class="lowest-button" value="highest no">Highest Number (first)</option>
+                <option class="lowest-button" value="A">A-Z</option>
+                <option class="lowest-button" value="Z">Z-A</option>
+            </select>
+        </div>
+    </div>
+    <div class="pokedex-img-ranking">
+        <div class="pokedex-img-ranking-row-one">
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                     <img  class="pokedex-ranking-img-sizing" class="pokedex-ranking-img-sizing" src="images/pokedex top 1.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#277</p>
+                    <h3>Swellow</h3>
+                    <div class="grand-child-part-two-head">
+                        <div class="top-bg-color-green grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Normal</p>
+                        </div>
+                        <div class="top-bg-color-orange grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Flying</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                    <img  class="pokedex-ranking-img-sizing" src="images/pokedex top 2.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#281</p>
+                    <h3>Kirlia</h3>
+                    <div class="grand-child-part-two-head">
+                        <div class="top-bg-color-green grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Psychic</p>
+                        </div>
+                        <div class="top-bg-color-blue grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Fairy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                    <img  class="pokedex-ranking-img-sizing" src="images/pokedex top 3.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#537</p>
+                    <h3>Seismotoad</h3>
+                    <div class="grand-child-part-two-head">
+                        <div class="top-bg-color-green grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Water</p>
+                        </div>
+                        <div class="top-bg-color-orange grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Ground</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                    <img  class="pokedex-ranking-img-sizing" src="images/pokedex top 4.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#248</p>
+                    <h3>Tyranitor</h3>
+                    <div class="grand-child-part-two-head">
+                        <div class="top-bg-color-double-two grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Rock</p>
+                        </div>
+                        <div class="top-bg-color-green grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Dark</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pokedex-img-ranking-row-two">
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                    <img  class="pokedex-ranking-img-sizing" src="images/pokedex top 5.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#338</p>
+                    <h3>Grotle</h3>
+                    <div class="top-bg-color-orange grandchilds-part-two">
+                        <p class="pokedex-top-text-sizing">Grass</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                     <img  class="pokedex-ranking-img-sizing" src="images/pokedex top 6.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#385</p>
+                    <h3>Jirachi</h3>
+                    <div class="grand-child-part-two-head">
+                        <div class="top-bg-color-green grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Steel</p>
+                        </div>
+                        <div class="top-bg-color-double grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Pyschic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                    <img  class="pokedex-ranking-img-sizing" src="images/pokedex top7.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#780</p>
+                    <h3>Drampa</h3>
+                    <div class="grand-child-part-two-head">
+                        <div class="top-bg-color-blue grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Normal</p>
+                        </div>
+                        <div class="top-bg-color-double grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Dragon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                    <img  class="pokedex-ranking-img-sizing" src="images/pokedex top 8.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#226</p>
+                    <h3>Mantine</h3>
+                    <div class="grand-child-part-two-head">
+                        <div class="top-bg-color-double-two grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Water</p>
+                        </div>
+                        <div class="top-bg-color-blue grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Flying</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pokedex-img-ranking-row-three">
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                    <img  class="pokedex-ranking-img-sizing" src="images/pokedex top 9.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#610</p>
+                    <h3>Axew</h3>
+                    <div class="top-bg-color-gray grandchilds-part-two">
+                        <p class="pokedex-top-text-sizing">Dragon</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                    <img  class="pokedex-ranking-img-sizing" src="images/pokedex top 10.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#304</p>
+                    <h3>Aron</h3>
+                    <div class="grand-child-part-two-head">
+                        <div class="top-bg-color-green grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Steel</p>
+                        </div>
+                        <div class="top-bg-color-double grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Rock</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                    <img  class="pokedex-ranking-img-sizing" src="images/pokedex top11.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#689</p>
+                    <h3>Barbaracle</h3>
+                    <div class="grand-child-part-two-head">
+                        <div class="top-bg-color-orange grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Rock</p>
+                        </div>
+                        <div class="top-bg-color-green grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Water</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pokedex-img-ranking-childs">
+                <div class="pokedex-img-ranking-grandchilds-first">
+                    <img  class="pokedex-ranking-img-sizing" src="images/pokedex top 12.png" alt="">
+                </div>
+                <div class="pokedex-img-ranking-grandchilds">
+                    <p class="no-color-pokedex pokedex-top-text-sizing">#305</p>
+                    <h3>Lairon</h3>
+                    <div class="grand-child-part-two-head">
+                        <div class="top-bg-color-green grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Steel</p>
+                        </div>
+                        <div class="top-bg-color-double grandchilds-part-two">
+                            <p class="pokedex-top-text-sizing">Rock</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="heading-button-after-top-img-main">
+        <button class="heading-button-after-top-img">Lead more Pokemon</button>
+    </div>
+    <div class="champion-bottom pokedex-copy-bottom">
+        <div class="poken-full">
+             <div class="body-image-poken">
+                  <img class="pokedex-img-copy small" src="images/pokemon fisrt video img arceus.gif" alt="gif">
+            </div>
+            <div class="pokedex-copy small tournamnet-color">
+                 <h4>2022 Pokken Tournament DX Europe International Championships Preview</h4>
+                 <p>players will complete for incredible prizes and high championship point payouts during the 2022 pokemon Europe International Championships in Frankfurt, Germany from april 22-24,2022.</p>
+                 <p>Compete again pokemon sword and pokemon sheild players from around the world to earn in game rewards during the April season.</p>
+            </div>
+        </div>
+        <div class="tcg-full">
+            <div class="body-image-thepokemon-tcg">
+                 <img class="pokedex-img-copy small" src="images/2022-euic-power-rankings-tcg-169.jpg" alt="gif">
+            </div>
+            <div class="pokedex-copy-two small tcg-color">
+                 <h4>The pokemon TCG Europe International Championships power Rankings</h4>
+                 <p>the april community day features in pokemon debut, exciting bonuses and special Reasearch.</p>
+            </div>
+        </div>
+        <div class="what-to-watch-full">
+             <div class="body-image-whatto-watch">
+                  <img class="pokedex-img-copy small" src="images/what to watch.jpg" alt="gif">
+            </div>
+            <div class="pokedex-copy small whatto-color">
+                 <h4>What to watch for at the 2022 VGC europe International Championships</h4>
+                 <p>Compete again pokemon sword and pokemon sheild players from around the world to earn in game rewards during the April season.</p>
+                 <p>players will complete for incredible prizes and high championship point payouts during the 2022..</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="foot">
+        <div class="foot-left">
+            <h4>ThePokemonCompany</h4>
+            <ul class="list">
+                <li>What's New</li>
+                <li>Pokemon Parents Guide</li>
+                <li>Customer Service</li>
+                <li>About Our Company</li>
+                <li>pokemon Careers</li>
+                <li>Select a Country/region</li>
+                <li>Pokemon Press Site</li>
+            </ul>
+        </div>
+        <div class=" foot-centre">
+            <img class="footer-icon" src="images/facebook.png" alt="fb logo">
+            <img class="footer-icon" src="images/instagram.png" alt="insta logo">
+            <img class="footer-icon" src="images/youtube.png" alt="youtube logo">
+            <img class="footer-icon" src="images/twitter.png" alt="twitter logo">
+            <img class="footer-icon" src="images/icons8-linkedin-48.png" alt="linkedin logo">
+        </div>
+        <div class="foot-right">
+            <div class="foot-right-complete-display">
+                <div class="foot-right-img">
+                    <img class="foot-img" src="images/video img down fantasy violence img small.jpg" alt="logo">
+                </div>
+                <br>
+                <div class="foot-right-links">
+                    <a class="foot-link" href="">Terms of Use</a>
+                    <br>
+                    <a  class="foot-link" href="">Privacy Notice</a>
+                    <br>
+                    <a  class="foot-link" href="">Cookie Page</a>
+                    <br>
+                    <a  class="foot-link" href="">Legal Info</a>
+                    <br>
+                    <a  class="foot-link" href="">Security</a>
+                </div>
+            </div>
+            <p class="foot-history">@2022 pokemon 1995-2022 nitnendo creatures Inc.game Freak inc. TM.@Nintendo</p>
+            
+        </div>
+
+    </div>
+   
+    
+</body>
+</html>
